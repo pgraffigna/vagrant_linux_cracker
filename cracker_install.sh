@@ -25,7 +25,7 @@ function ctrl_c(){
 REPO_HASH=https://gitlab.com/kalilinux/packages/hash-identifier.git
 REPO_JOHN=https://github.com/openwall/john
 
-echo -e "${yellowColour}Instalado requisitos para usar GPU en virtualbox"
+echo -e "${yellowColour}Instalado requisitos para usar GPU en virtualbox ${endColour}"
 sudo apt-get update && sudo apt-get install -y libhwloc-dev ocl-icd-dev ocl-icd-opencl-dev pocl-opencl-icd
 
 echo -e "\n${yellowColour}Instalando Hash-identifier ${endColour}"
